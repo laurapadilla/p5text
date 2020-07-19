@@ -1,0 +1,30 @@
+body {
+	font-family: Arial;
+	font-size: 16px;
+	line-height: 1.5;
+	
+	background-color: #ebe2d8;
+	color: #0383ff;
+}
+
+canvas {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.actions {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  
+  display: flex;
+  align-items: center;
+}
+
+input {
+  width: 100px;
+  margin-left: 5px;
+}
+
